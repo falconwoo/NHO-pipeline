@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api/greeting")
 public class GreetingController {
 
-    private static final String GREETING = "hello, ";
+    private static final String GREETING = "goodbye, ";
 
     @GetMapping()
     public String greeting(@RequestParam("name") String name) {
